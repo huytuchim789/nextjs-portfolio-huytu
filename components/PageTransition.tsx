@@ -25,9 +25,8 @@ export default function PageTransition({
             },
           }}
           className="h-screen w-screen fixed bg-primary top-0 pointer-events-none"
-        >
-          {children}
-        </motion.div>
+        ></motion.div>
+        {children}
       </div>
     </AnimatePresence>
   );
