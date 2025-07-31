@@ -1,0 +1,31 @@
+"use client";
+
+import React from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+const links = [
+  {
+    name: "home",
+    path: "/",
+  },
+  { name: "services", path: "/services" },
+  { name: "resume", path: "/resume" },
+  { name: "work", path: "work" },
+  {
+    name: "contact",
+    path: "/contact",
+  },
+];
+
+export default function Nav() {
+  return (
+    <nav className="flex gap-8">
+      {links.map((link, i) => (
+        <Link key={link.path} href={link.path} className="">
+          {link.name}
+        </Link>
+      ))}
+    </nav>
+  );
+}
