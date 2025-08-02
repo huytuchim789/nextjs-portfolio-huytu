@@ -12,10 +12,14 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaFigma,
   FaNodeJs,
+  FaPython,
+  FaAws,
+  FaDocker,
+  FaJava,
+  FaPhp,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiTypescript, SiKotlin, SiSpringboot, SiLaravel, SiKubernetes } from "react-icons/si";
 import {
   Tooltip,
   TooltipContent,
@@ -25,39 +29,39 @@ import {
 
 const about = {
   title: "About Me",
-  description: "",
+  description: "Software Engineer III with expertise in enterprise solutions, cloud technologies, and full-stack development.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Tran Huy Tu",
     },
     {
       fieldName: "Phone",
-      fieldValue: "+1 234 567 890",
+      fieldValue: "07089540203",
     },
     {
       fieldName: "Experience",
-      fieldValue: "5+ years",
+      fieldValue: "2+ years",
     },
     {
-      fieldName: "Skype",
-      fieldValue: "luke.coleman",
+      fieldName: "GitHub",
+      fieldValue: "huytuchim789",
     },
     {
       fieldName: "Nationality",
-      fieldValue: "American",
+      fieldValue: "Vietnamese",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke@example.com",
+      fieldValue: "tranhuytu242000@gmail.com",
     },
     {
       fieldName: "Language",
-      fieldValue: "English, Spanish",
+      fieldValue: "English (B2), Japanese (N3)",
     },
     {
-      fieldName: "Freelance",
-      fieldValue: "Available",
+      fieldName: "Current Role",
+      fieldValue: "Software Engineer III",
     },
   ],
 };
@@ -65,47 +69,27 @@ const about = {
 const experience = {
   icon: "", // URL or icon class
   title: "Work Experience",
-  description: "A summary of my professional journey.",
+  description: "My professional journey in software engineering and enterprise solutions.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Frontend Developer",
-      duration: "Jan 2021 - Present",
+      company: "Money Forward, Inc. (Tokyo, Japan)",
+      position: "Software Engineer III",
+      duration: "Dec 2023 - Present",
     },
     {
-      company: "Creative Devs",
-      position: "UI/UX Designer",
-      duration: "Jun 2018 - Dec 2020",
+      company: "Money Forward Vietnam",
+      position: "Git Visualization - Frontend Developer",
+      duration: "Jan 2023",
     },
     {
-      company: "Creative Devs",
-      position: "UI/UX Designer",
-      duration: "Jun 2018 - Dec 2020",
+      company: "Money Forward Vietnam",
+      position: "Project Cost - Frontend Developer",
+      duration: "Jul 2022",
     },
     {
-      company: "Creative Devs",
-      position: "UI/UX Designer",
-      duration: "Jun 2018 - Dec 2020",
-    },
-    {
-      company: "Creative Devs",
-      position: "UI/UX Designer",
-      duration: "Jun 2018 - Dec 2020",
-    },
-    {
-      company: "Creative Devs",
-      position: "UI/UX Designer",
-      duration: "Jun 2018 - Dec 2020",
-    },
-    {
-      company: "Creative Devs",
-      position: "UI/UX Designer",
-      duration: "Jun 2018 - Dec 2020",
-    },
-    {
-      company: "Creative Devs",
-      position: "UI/UX Designer",
-      duration: "Jun 2018 - Dec 2020",
+      company: "Money Forward Vietnam",
+      position: "Send Cloud Invoice - Backend Developer",
+      duration: "Jul 2022",
     },
   ],
 };
@@ -113,17 +97,17 @@ const experience = {
 const education = {
   icon: "", // optional: icon class or path
   title: "Education",
-  description: "My academic background and qualifications.",
+  description: "My academic background and certifications.",
   items: [
     {
-      institution: "University of California, Berkeley",
-      degree: "Bachelor of Science in Computer Science",
-      duration: "2014 - 2018",
+      institution: "Hanoi University of Science and Technology",
+      degree: "Computer Science (CPA: 2.99)",
+      duration: "Sep 2018 - Nov 2023",
     },
     {
-      institution: "Coursera / Udemy",
-      degree: "Certificates in Web Development",
-      duration: "2019 - Present",
+      institution: "JLPT Certification",
+      degree: "Japanese Language Proficiency N3",
+      duration: "Certified",
     },
   ],
 };
@@ -131,35 +115,55 @@ const education = {
 const skills = {
   icon: "", // optional: icon class or path
   title: "Skills",
-  description: "Technologies and tools I use regularly.",
+  description: "Technologies and tools I use for building enterprise solutions.",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
-    },
-    {
-      icon: <FaCss3 />,
-      name: "css 3",
+      icon: <SiTypescript />,
+      name: "TypeScript",
     },
     {
       icon: <FaReact />,
-      name: "react.js",
+      name: "React.js",
     },
     {
       icon: <SiNextdotjs />,
-      name: "next.js",
+      name: "Next.js",
     },
     {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      icon: <FaPython />,
+      name: "Python",
     },
     {
-      icon: <FaNodeJs />,
-      name: "node.js",
+      icon: <SiKotlin />,
+      name: "Kotlin",
     },
     {
-      icon: <FaFigma />,
-      name: "figma",
+      icon: <FaJava />,
+      name: "Java",
+    },
+    {
+      icon: <FaPhp />,
+      name: "PHP",
+    },
+    {
+      icon: <SiSpringboot />,
+      name: "Spring Boot",
+    },
+    {
+      icon: <SiLaravel />,
+      name: "Laravel",
+    },
+    {
+      icon: <FaAws />,
+      name: "AWS",
+    },
+    {
+      icon: <SiKubernetes />,
+      name: "Kubernetes",
+    },
+    {
+      icon: <FaDocker />,
+      name: "Docker",
     },
   ],
 };

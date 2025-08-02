@@ -7,30 +7,30 @@ import { BsArrowDownRight } from "react-icons/bs";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Frontend Development",
     description:
-      "We build responsive, fast, and scalable websites tailored to your business goals.",
+      "Building modern, responsive web applications using React, Next.js, TypeScript, and state-of-the-art UI frameworks.",
     href: "/",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Backend Development",
     description:
-      "We craft intuitive user interfaces and seamless experiences that delight users.",
+      "Creating robust APIs and server-side solutions with Spring Boot, Laravel, Node.js, and microservices architecture.",
     href: "/",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Cloud & DevOps",
     description:
-      "We design memorable and impactful logos that represent your brand identity.",
+      "Deploying and managing applications on AWS, implementing CI/CD pipelines, and orchestrating with Kubernetes.",
     href: "/",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Enterprise Solutions",
     description:
-      "We optimize your website to rank higher on search engines and attract more traffic.",
+      "Developing scalable enterprise applications with focus on performance, security, and maintainability.",
     href: "/",
   },
 ];

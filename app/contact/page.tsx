@@ -20,17 +20,17 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+40) 321 654 876",
+    description: "07089540203",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "youremail@gmail.com",
+    description: "tranhuytu242000@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
-    title: "Address",
-    description: "Code Corner, Tech Town 13579",
+    title: "Location",
+    description: "Vietnam / Tokyo, Japan",
   },
 ];
 
@@ -57,8 +57,8 @@ export default function Contact() {
             >
               <h3>Let's work together</h3>
               <p className="text-white/60">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                I&apos;m always interested in new opportunities and collaborations. 
+                Feel free to reach out if you have a project in mind or just want to connect.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input type="text" placeholder="First Name" />
@@ -73,9 +73,11 @@ export default function Contact() {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">Web Development</SelectItem>
-                    <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
+                    <SelectItem value="frontend">Frontend Development</SelectItem>
+                    <SelectItem value="backend">Backend Development</SelectItem>
+                    <SelectItem value="fullstack">Full Stack Development</SelectItem>
+                    <SelectItem value="cloud">Cloud & DevOps</SelectItem>
+                    <SelectItem value="consulting">Technical Consulting</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>

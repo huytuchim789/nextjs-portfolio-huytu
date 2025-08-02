@@ -21,34 +21,33 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
+    category: "AI Platform",
+    title: "MentionAI",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
+      "Build Your Digital Clone in One Minute. Connect your social media accounts and let AI learn from your digital footprint to create an authentic digital version of you. Access all major AI models in one place - switch between leading AI models seamlessly, compare responses, and combine strengths.",
+    stack: [
+      { name: "Python" },
+      { name: "Machine Learning" },
+      { name: "NLP" },
+      { name: "REST API" },
+    ],
+    image: "/assets/work/mentionAI.webp",
     live: "",
     github: "",
   },
   {
     num: "02",
-    category: "fullstack",
-    title: "project 2",
+    category: "Enterprise FinTech",
+    title: "Mikatano Cash Management",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "03",
-    category: "frontend",
-    title: "project 3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
+      "Cash management service for SMEs and sole proprietors, offered by Money Forward X via regional institutions. Aggregates bank balances, transaction histories, and provides cash flow forecasts in a single dashboard for streamlined daily monitoring and sharing.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "AWS" },
+      { name: "Kubernetes" },
+    ],
+    image: "/assets/work/mikatanoCFM.png",
     live: "",
     github: "",
   },
@@ -149,8 +148,11 @@ export default function Work() {
                         <Image
                           src={project.image}
                           fill
-                          className="object-cover"
-                          alt=""
+                          className="object-contain"
+                          alt={project.title}
+                          quality={100}
+                          priority={index === 0}
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                         />
                       </div>
                     </div>
