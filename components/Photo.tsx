@@ -26,15 +26,15 @@ export default function Photo() {
               ease: "easeInOut",
             },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute rounded-full overflow-hidden"
         >
           <Image
-            src="/assets/photo.jpg"
+            src="/assets/photo.png"
             priority
             quality={100}
             fill
             alt=""
-            className="object-contain"
+            className="object-cover scale-110"
           />
         </motion.div>
 
