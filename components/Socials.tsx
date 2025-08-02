@@ -1,6 +1,5 @@
 import Link from "next/link";
-import path from "path";
-import React, { CSSProperties } from "react";
+import React from "react";
 
 import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
 

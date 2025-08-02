@@ -22,7 +22,7 @@ export default function Nav() {
   const pathname = usePathname();
   return (
     <nav className="flex gap-8">
-      {links.map((link, i) => (
+      {links.map((link) => (
         <Link
           key={link.path}
           href={link.path}

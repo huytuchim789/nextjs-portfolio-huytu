@@ -8,18 +8,21 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import React from "react";
 
 import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
   FaReact,
-  FaNodeJs,
   FaPython,
   FaAws,
   FaDocker,
   FaJava,
   FaPhp,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiTypescript, SiKotlin, SiSpringboot, SiLaravel, SiKubernetes } from "react-icons/si";
+import {
+  SiNextdotjs,
+  SiTypescript,
+  SiKotlin,
+  SiSpringboot,
+  SiLaravel,
+  SiKubernetes,
+} from "react-icons/si";
 import {
   Tooltip,
   TooltipContent,
@@ -29,7 +32,8 @@ import {
 
 const about = {
   title: "About Me",
-  description: "Software Engineer III with expertise in enterprise solutions, cloud technologies, and full-stack development.",
+  description:
+    "Software Engineer III with expertise in enterprise solutions, cloud technologies, and full-stack development.",
   info: [
     {
       fieldName: "Name",
@@ -69,7 +73,8 @@ const about = {
 const experience = {
   icon: "", // URL or icon class
   title: "Work Experience",
-  description: "My professional journey in software engineering and enterprise solutions.",
+  description:
+    "My professional journey in software engineering and enterprise solutions.",
   items: [
     {
       company: "Money Forward, Inc. (Tokyo, Japan)",
@@ -115,7 +120,8 @@ const education = {
 const skills = {
   icon: "", // optional: icon class or path
   title: "Skills",
-  description: "Technologies and tools I use for building enterprise solutions.",
+  description:
+    "Technologies and tools I use for building enterprise solutions.",
   skillList: [
     {
       icon: <SiTypescript />,
