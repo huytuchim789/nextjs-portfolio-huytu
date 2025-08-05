@@ -1,0 +1,25 @@
+{
+  "name": "Tran Huy Tu - Software Engineer Portfolio",
+  "short_name": "THT Portfolio",
+  "description": "Software Engineer III specializing in enterprise solutions, TypeScript, React, Next.js, and cloud technologies",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1c1c22",
+  "theme_color": "#00ff99",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/photo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/photo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "developer", "software", "engineering"]
+}

@@ -149,10 +149,11 @@ export default function Work() {
                           src={project.image}
                           fill
                           className="object-contain"
-                          alt={project.title}
-                          quality={100}
+                          alt={`${project.title} - ${project.category} project screenshot`}
+                          quality={90}
                           priority={index === 0}
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                          loading={index === 0 ? "eager" : "lazy"}
                         />
                       </div>
                     </div>
